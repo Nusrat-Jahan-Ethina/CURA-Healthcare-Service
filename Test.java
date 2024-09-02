@@ -28,7 +28,6 @@ public class Test {
 		driver.findElement(By.id("txt-username")).sendKeys("John Doe");
 		driver.findElement(By.id("txt-password")).sendKeys("ThisIsNotAPassword");
 		action.sendKeys(Keys.ENTER).perform();
-		//driver.findElement(By.id("btn-login")).click();
 		
 		//Facility (drop down)
 		WebElement fac = driver.findElement(By.id("combo_facility"));
